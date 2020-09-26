@@ -100,5 +100,10 @@ li a:hover {
         width: 33%;
         text-align: center;
       }
+      body {padding: 40;
+        font-size: 1.4em;
+        max-width:50em;
+        margin: auto;
+    }
   }
 
