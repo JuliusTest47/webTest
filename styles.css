@@ -44,7 +44,7 @@ p {
     border-radius: 3pt;
 }
 #nav a {
-  border-radius: 2pt;
+  border-radius: 0pt;
     display: block;
     color: black;
     text-align: center;
