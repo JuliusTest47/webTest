@@ -20,7 +20,7 @@ p {
 ul {
     margin: auto;
   }
-  body {padding: 40;
+  body {
 
     max-width:50em;
     margin: auto;
@@ -111,13 +111,13 @@ li a:hover {
       .right {
         text-align: center;
       }
-      body {padding: 20;
+      body {
         font-size: 1.4em;
         max-width:50em;
         margin: auto;
     }
     li{
-        min-width: 33%;
+        min-width: 31%;
     }
 
   }
