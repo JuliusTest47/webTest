@@ -34,8 +34,9 @@ ul {
     overflow: hidden;
     border: solid 2px black;
     background-color: white;
-    float: right;
     min-width: 20%;
+    float: none;
+    display: inline-block;
   }
   
   li a {
@@ -114,6 +115,9 @@ li a:hover {
         font-size: 1.4em;
         max-width:50em;
         margin: auto;
+    }
+    li{
+        min-width: 33%;
     }
 
   }
