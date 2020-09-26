@@ -14,7 +14,6 @@ div {
   }
 
 p{
-  width:99%;
     margin: 0px;
     text-align: justify;
   }
@@ -132,8 +131,8 @@ img {
       }
 
     .navItem{
-        min-width: calc(33% - 4px);
-        max-width: calc(33% - 4px);
+        min-width: calc(33% - 6px);
+        max-width: calc(33% - 6px);
     }
     
   #menu{
