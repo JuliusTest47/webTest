@@ -14,6 +14,7 @@ div {
   }
 
 p {
+  max-width:98%;
     margin: 0px;
     text-align: justify;
   }
