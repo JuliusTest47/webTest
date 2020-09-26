@@ -24,8 +24,11 @@ ul {
 
     max-width:50em;
     margin: auto;
+    padding:10px;
 }
-  
+  ul{
+      padding:0;
+  }
   li {
       
     list-style-type: none;
