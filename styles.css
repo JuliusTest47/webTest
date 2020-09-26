@@ -30,7 +30,7 @@ p {
 }
 .navItem {
     list-style-type: none;
-    margin: 3;
+    margin: 0;
     padding: 1 ;
     overflow: hidden;
     border: solid 2px black;
@@ -42,7 +42,6 @@ p {
 }
 #nav a {
   border-radius: 2pt;
-
     display: block;
     color: black;
     text-align: center;
@@ -129,9 +128,8 @@ img {
       }
 
     .navItem{
-        width: 33%;
-        min-width: 20%;
-        max-width: 27%;
+        min-width: 31%;
+        max-width: 31%;
     }
     
   #menu{
