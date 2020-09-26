@@ -9,6 +9,7 @@ h1 {
 
 p {
     margin: 0px;
+    text-align: justify;
   }
 
 
@@ -58,6 +59,8 @@ li a:hover {
   
   .left {
     width: 33%;
+    text-align: center;
+
   }
   
   .right {
@@ -68,6 +71,28 @@ li a:hover {
   @media screen and (max-width: 1000px) {
     .column.left, .column.right {
       width: 100%;
+    }
+    #container1 {
+        display: flex;
+        flex-direction: column;
+      }
+    #container2 {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      #menu {
+        order: -1;
+      }
+
+      .emp{
+        font-size: 0px;
+      }
+      li{
+        min-width: 100%
+      }
+      img {
+        margin-bottom: 20px;
     }
   }
 
