@@ -17,20 +17,18 @@ p {
   }
 
 
-ul {
+#nav {
     margin: auto;
-  }
-  body {
+    padding:0;
 
-    max-width:50em;
-    margin: auto;
-    padding:10px;
-}
-  ul{
-      padding:0;
   }
-  li {
-      
+.paperList{
+    padding:0;
+}
+.paper{
+    list-style-type: none;
+}
+.navItem {
     list-style-type: none;
     margin: 3;
     padding: 1 ;
@@ -40,28 +38,35 @@ ul {
     min-width: 20%;
     float: none;
     display: inline-block;
-  }
-  
-  li a {
+    border-radius: 3pt;
+}
+#nav a {
+  border-radius: 2pt;
+
     display: block;
     color: black;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    list-style-position: outside;
   }
 
-li a:hover {
+#nav a:hover {
     color: white;
-    background-color: #111111;
+    background-color: gray;
+}
+body {
+    max-width:50em;
+    margin: auto;
+    padding:10px;
 }
 
 
-    img {
-        border-radius: 50%;
-        box-shadow: 0 0 3pt 2pt black;
-      }
-      
+
+img {
+    border-radius: 50%;
+    box-shadow: 0 0 3pt 2pt black;
+    }
+    
 
 
       
@@ -84,6 +89,14 @@ li a:hover {
     height: 5em;
   }
 
+
+
+  .paperTitle{
+    margin-bottom:0px;
+  }
+  .paperDetails{
+    margin:0px;
+  }
   @media screen and (max-width: 1000px) {
     .column.left, .column.right {
       width: 100%;
@@ -102,11 +115,11 @@ li a:hover {
         order: -1;
       }
 
-      .emp{
-        font-size: 0px;
-      }
       img {
         margin-bottom: 20px;
+    }
+    #me{
+        margin-bottom: 10px;
     }
     .left {
         text-align: center;
@@ -114,16 +127,20 @@ li a:hover {
       .right {
         text-align: center;
       }
-      body {
-        font-size: 1.4em;
-        max-width:50em;
-        margin: auto;
-    }
-    li{
+
+    .navItem{
         width: 33%;
         min-width: 20%;
         max-width: 27%;
     }
-
+    
+  #menu{
+    height: auto;
+  }
+  body {
+    max-width:40em;
+    margin: auto;
+    padding:10px;
+}
   }
 
