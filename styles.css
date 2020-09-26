@@ -13,7 +13,8 @@ div {
     display: inline-block;
   }
 
-p {
+p{
+  width:99%;
     margin: 0px;
     text-align: justify;
   }
