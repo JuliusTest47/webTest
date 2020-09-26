@@ -131,8 +131,8 @@ img {
       }
 
     .navItem{
-        min-width: calc(33% - 6px);
-        max-width: calc(33% - 6px);
+        min-width: calc(32% - 1px);
+        max-width: calc(32% - 1px);
     }
     
   #menu{
