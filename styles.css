@@ -148,12 +148,12 @@ img {
     padding:10px;
 }
 .verticalWrap{
-  margin-right:0px;
+  margin:auto;
   width:94%;
 }
 
 .paperList{
-  right: auto;
+  margin-right: 0em;
     padding:0;
 }
   }
