@@ -20,7 +20,6 @@ p{
 
 .verticalWrap{
   margin:auto;
-  width:94%;
 }
 #nav {
   box-sizing: border-box;
@@ -145,6 +144,9 @@ img {
     max-width:80%;
     margin: auto;
     padding:10px;
+}
+.verticalWrap{
+  width:94%;
 }
   }
 
