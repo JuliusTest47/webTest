@@ -45,7 +45,7 @@ p{
     min-width: 20%;
     float: none;
     display: inline-block;
-    border-radius: 3pt;
+    border-radius: 0pt;
 }
 #nav a {
   border-radius: 0pt;
